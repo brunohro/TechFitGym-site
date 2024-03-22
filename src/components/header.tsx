@@ -1,12 +1,13 @@
-import Image from "next/image";
-import Logo from '@/Image/TECHFIT-LOGO.png'
+'use client'
 import { ButtonPrimary } from "./ui/ButtonPrimary";
 import {ButtonMenu} from "@/components/ui/ButtonMenu";
+import {useState} from "react";
 export function Header(){
+    const [puxarMenu, setpuxarMenu] = useState(false);
     return(
-        <section className="bg-black">
+        <section className="bg-transparent fixed top-0 left-0 right-0">
             <div className="flex px-10 py-6 mx-auto justify-between gap-5 max-w-screen-xl items-center">
-                <div className="flex flex-col text-center text-primary">
+                <div className="flex flex-col text-center text-primary cursor-pointer">
                     {/*<Image className="w-32" src={Logo} alt="Logo"/>*/}
                     <h1 className="text-3xl font-raleway">TECHFIT</h1>
                 </div>
