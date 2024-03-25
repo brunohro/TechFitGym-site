@@ -8,7 +8,7 @@ import treino from '@/Image/Aulas/treino.png'
 export function SessaoAula() {
     return (
         <section className="bg-primary-gray">
-            <div className="flex justify-center max-w-screen-xl mx-auto px-6 pt-28">
+            <div className="flex justify-center max-w-screen-xl mx-auto px-6 py-28">
                 <div>
                     <div className="flex justify-center mx-auto">
                         <div className="text-center max-w-screen-md ">
