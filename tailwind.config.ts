@@ -16,6 +16,7 @@ const config: Config = {
       },
       colors: {
         'primary': '#FF0000',
+        'primary-gray': '#2e2e30',
     },
       fontFamily:{
         raleway: ['Raleway', 'sans-serif'],
