@@ -3,7 +3,7 @@ import Image from "next/image";
 import Treino from '@/Image/ImagemDeTreino.jpg'
 export function SessaoTopo() {
     return (
-        <section className="bg-img-fundoTopo bg-center bg-cover bg-no-repeat">
+        <section id="sessaoTopo" className="bg-img-fundoTopo bg-center bg-cover bg-no-repeat">
             <div className="flex justify-center mx-auto">
                 <div className="md:flex w-full md:justify-center items-center py-28 gap-32 max-w-screen-xl mx-auto">
                     <div className="flex px-10 md:w-1/2 justify-center mx-auto">
