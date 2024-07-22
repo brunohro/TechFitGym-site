@@ -1,8 +1,8 @@
 import {Header} from "@/components/header";
-import Image from "next/image";
 import {SessaoTopo} from "@/components/sessaoTopo";
 import {SessaoAula} from "@/components/sessaoAula";
 import {SessaoPlanos} from "@/components/sessaoPlanos";
+import {Footer} from "@/components/footer";
 
 export default function Home() {
     return (
@@ -11,6 +11,7 @@ export default function Home() {
             <SessaoTopo/>
             <SessaoAula/>
             <SessaoPlanos/>
+            <Footer/>
         </section>
     );
 }
